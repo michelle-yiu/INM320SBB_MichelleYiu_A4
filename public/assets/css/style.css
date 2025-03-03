@@ -71,7 +71,8 @@ form .flexbox {
     display: flex;
     align-items: center;
 }
-form span {
+
+form div span {
     display: block;
     height: 25px;
     width: 25px;
@@ -79,7 +80,17 @@ form span {
     margin-bottom: 15px;
     margin-right: 10px;
     position: relative;
+}  
+
+form legend {
+    margin-bottom: 15px;
+    text-decoration: underline;
 }
+
+.required {
+    color: red;
+}
+
 /* hover */
 form .flexbox:hover span {
     background-color: #ccc;
@@ -323,7 +334,7 @@ footer {
     .footer-social-links a {
         margin: 0 28px;
     }
-    .footer-social-links i {
+    .footer-social-links em {
         margin-right: 5px;
     }
     .footer-social-links a span {
